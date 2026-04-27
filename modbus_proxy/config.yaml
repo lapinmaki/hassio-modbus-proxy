@@ -1,6 +1,6 @@
 name: "Modbus Proxy"
 description: "Proxies Modbus TCP connections to allow multiple clients to share one Modbus device (e.g. Waveshare RS-485 to ETH adapter)."
-version: "1.0.0"
+version: "1.0.1"
 slug: "modbus_proxy"
 init: false
 arch:
