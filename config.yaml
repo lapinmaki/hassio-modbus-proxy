@@ -1,0 +1,19 @@
+name: "Modbus Proxy"
+description: "Proxies Modbus TCP connections to allow multiple clients to share one Modbus device (e.g. Waveshare RS-485 to ETH adapter)."
+version: "1.0.0"
+slug: "modbus_proxy"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+host_network: true
+options:
+  listen_port: 5020
+  modbus_host: "192.168.50.19"
+  modbus_port: 502
+schema:
+  listen_port: int
+  modbus_host: str
+  modbus_port: int
